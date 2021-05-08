@@ -1,0 +1,52 @@
+.nebula-button {
+  border-radius: 2px;
+  margin:1em;
+  min-width:64;
+  padding:0.5em;
+  display: flex;
+  align-items: center;
+  position: relative;
+  background:none;
+  border: none;
+  font-size: 120%;
+  color: white;
+  text-align: center;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+}
+.filled{
+  box-shadow: 0 2px 3px 0 #00000090,0 2px 3px 0 #00000090;
+  background:slateblue;
+}
+.outlined{
+  border:1px solid #ccc;
+}
+.filled:active{
+  box-shadow: 0 4px 8px 0 #00000090,0 4px 10px 0 #00000090;
+}
+.nebula-button:disabled{
+  color:#ccc;
+  background:gray;
+}
+.nebula-button:after {
+  content: "";
+  background: #ffffff90;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px!important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s
+}
+
+.nebula-button:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
+}

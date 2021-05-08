@@ -1,0 +1,16 @@
+.nebula-accordian{
+  padding:0.3em;
+  border:1px solid #ccc;
+  overflow:hidden;
+  transition:0.3s ease-in-out;
+}
+.nebula-accordian-active{
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+.nebula-accordian-content{
+  height:auto;
+  overflow: hidden;
+  cursor:text;
+  transition:max-height 0.5s ease-in-out;
+}

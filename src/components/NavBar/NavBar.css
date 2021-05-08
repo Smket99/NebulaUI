@@ -1,0 +1,10 @@
+.nebula-navbar{
+  box-shadow:0 4px 8px 0 #00000031,0 6px 20px 0 #00000031;
+  background:dodgerblue;
+  width:calc(100% - 1em);
+  height:calc(70px - 1em);
+  display: flex;
+  padding:0.5em;
+  align-items: center;
+  z-index: 1;
+}

@@ -1,0 +1,25 @@
+.nebula-input{
+  border:none;
+  outline:none;
+  font-size: 100%;
+  padding:4px 4px;
+  width:calc(100% - 8px);
+}
+.bottom-border{
+  background:#ccc;
+  width:100%;
+  height:2px;
+  margin-top:-2px;
+}
+
+.bottom-border-focused{
+  margin-top:4px;
+  background:lime;
+  width:100%;
+  height:2px;
+  transition: 0.3s ease-in-out;
+  transform:translate(-100%);
+}
+.nebula-input:focus + .bottom-border-focused{
+  transform:translate(0%);
+}

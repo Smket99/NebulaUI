@@ -1,0 +1,39 @@
+.nebula-tabs-container{
+  display:flex;
+  background:black;
+  width:100%;
+  justify-content: center;
+  align-items: center;
+}
+.nebula-tabs{
+  background:black;
+  padding:0.5em;
+  font-size: 125%;
+  cursor:pointer;
+  transition: 0.3s ease-in-out;
+  color:white;
+}
+.nebula-tabs:hover{
+  opacity:0.8;
+}
+.nebula-tabs-active{
+  background:dodgerblue;
+  border-top-right-radius:5px;
+  border-top-leftt-radius:5px;
+  color:white;
+}
+.nebula-tabs-active:hover{
+  background:dodgerblue;
+  color:white;
+}
+.nebula-tabs:active{
+  background:dodgerblue;
+  color:white;
+}
+.tab-content{
+  max-height: calc(100vh - 50px);
+  width:calc(100% - 1em);
+  padding:0.5em;
+  transition: 1s ease-in-out;
+  overflow-y: auto;
+}

@@ -1,0 +1,31 @@
+.nebula-slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height:5px;
+  background: #ccc;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.nebula-slider:hover {
+  opacity: 1;
+}
+
+.nebula-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: white;
+  cursor: pointer;
+}
+
+.nebula-slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  background: lime;
+  cursor: pointer;
+}

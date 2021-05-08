@@ -1,0 +1,15 @@
+.nebula-otp-field{
+  outline:none;
+  background:white;
+  border:none;
+  font-size: 200%;
+  text-align: center;
+  width:40px;
+  padding:5%;
+  margin: 0.1em;
+  transition: 0.3s ease-in-out;
+}
+.nebula-otp-field:focus{
+  box-shadow: 0 2px 4px 0 #00000056,0 2px 4px 0 #00000056;
+  outline: 3px solid dodgerblue;
+}

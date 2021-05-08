@@ -1,0 +1,24 @@
+.nebula-menu-popup{
+  background:#212121;
+  color:white;
+  box-shadow: 0 4px 8px 0 #00000056,0 6px 20px 0 #00000056;
+  transition:0.2s ease-in-out;
+  z-index:10;
+  min-width:10vw;
+  display:flex;
+  flex-direction: column;
+}
+.nebula-list-item{
+  background:transparent;
+  cursor:pointer;
+  padding:0.5em;
+  position: relative;
+}
+
+.nebula-list-item:hover{
+  background:#ffffff30;
+}
+.nebula-list-item:active{
+  background:aqua;
+  opacity: 0.8;
+}

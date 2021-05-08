@@ -1,0 +1,22 @@
+.nebula-list{
+  display:flex;
+  flex-direction: column;
+}
+.nebula-list-item{
+  width:calc(100% - 1em);
+  padding:0.5em;
+  font-size: 120%;
+  cursor: pointer;
+  transition: 0.3s ease;
+  text-decoration: none;
+  color:white;
+}
+.nebula-list-item:active{
+  background:red;
+}
+.active{
+  background:#ffffff90;
+}
+.nebula-list-item:hover{
+  background:#ffffff90;
+}
